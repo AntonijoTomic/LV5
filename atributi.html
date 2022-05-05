@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Boje</title>
+    <script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+
+   <select name="convert" id ="izbornik" required onchange="promjena()">
+    <option value="email">EMAIL</option>
+    <option value ="number">NUMBER</option>
+    <option value="password">PASSWORD</option>
+    <option value="text">TEXT</option>
+  </select>
+<input type="email" id="input">
+  <button onClick="promjena()">Spremi</button>
+<script src="js/atributi.js"></script>
+
+</body>
+</html>
